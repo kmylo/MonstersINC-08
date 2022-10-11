@@ -34,5 +34,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": "https://github.com/kmylo/MonstersINC-08",
+  "author": "kmylo <kmylo@users.noreply.github.com>",
+  "license": "MIT"
 }

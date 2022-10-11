@@ -1203,7 +1203,7 @@
     espree "^9.4.0"
     globals "^13.15.0"
     ignore "^5.2.0"
-   import-fresh "^3.2.1"
+    import-fresh "^3.2.1"
     js-yaml "^4.1.0"
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
@@ -3292,7 +3292,7 @@ cosmiconfig@^6.0.0:
   integrity sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg==
   dependencies:
     "@types/parse-json" "^4.0.0"
-   import-fresh "^3.1.0"
+    import-fresh "^3.1.0"
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.7.2"
@@ -3303,7 +3303,7 @@ cosmiconfig@^7.0.0:
   integrity sha512-a1YWNUV2HwGimB7dU2s1wUMurNKjpx60HxBB6xUM8Re+2s1g1IIfJvFR0/iCF+XHdE0GMTKTuLR32UQff4TEyQ==
   dependencies:
     "@types/parse-json" "^4.0.0"
-   import-fresh "^3.2.1"
+    import-fresh "^3.2.1"
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.10.0"
@@ -3822,9 +3822,9 @@ ejs@^3.1.6:
     jake "^10.8.5"
 
 electron-to-chromium@^1.4.251:
-  version "1.4.276"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.276.tgz#17837b19dafcc43aba885c4689358b298c19b520"
-  integrity sha512-EpuHPqu8YhonqLBXHoU6hDJCD98FCe6KDoet3/gY1qsQ6usjJoHqBH2YIVs8FXaAtHwVL8Uqa/fsYao/vq9VWQ==
+  version "1.4.277"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.277.tgz#6dc3d9724a0a19b7ab155bf8e37967357a081dc5"
+  integrity sha512-Ej4VyUfGdVY5D2J5WHAVNqrEFBKgeNcX7p/bBQU4x/VKwvnyEvGd62NEkIK3lykLEe9Cg4MCcoWAa+u97o0u/A==
 
 emittery@^0.10.2:
   version "0.10.2"
@@ -4168,7 +4168,7 @@ eslint@^8.3.0:
     globby "^11.1.0"
     grapheme-splitter "^1.0.4"
     ignore "^5.2.0"
-   import-fresh "^3.0.0"
+    import-fresh "^3.0.0"
     imurmurhash "^0.1.4"
     is-glob "^4.0.0"
     js-sdsl "^4.1.4"
@@ -4957,7 +4957,7 @@ immutable@^4.0.0:
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.1.0.tgz#f795787f0db780183307b9eb2091fcac1f6fafef"
   integrity sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==
 
-import-fresh@^3.0.0,import-fresh@^3.1.0,import-fresh@^3.2.1:
+import-fresh@^3.0.0, import-fresh@^3.1.0, import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
   integrity sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==
@@ -5324,7 +5324,7 @@ jest-cli@^27.5.1:
     chalk "^4.0.0"
     exit "^0.1.2"
     graceful-fs "^4.2.9"
-   import-local "^3.0.2"
+    import-local "^3.0.2"
     jest-config "^27.5.1"
     jest-util "^27.5.1"
     jest-validate "^27.5.1"
@@ -5758,7 +5758,7 @@ jest@^27.4.3:
   integrity sha512-Yn0mADZB89zTtjkPJEXwrac3LHudkQMR+Paqa8uxJHCBr9agxztUifWCyiYrjhMPBoUVBjyny0I7XH6ozDr7QQ==
   dependencies:
     "@jest/core" "^27.5.1"
-   import-local "^3.0.2"
+    import-local "^3.0.2"
     jest-cli "^27.5.1"
 
 js-cookie@^2.2.1:
