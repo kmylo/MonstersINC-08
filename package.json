@@ -1,0 +1,37 @@
+{
+  "name": "monsters-8-context-forked",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "4.11.4",
+    "@material-ui/icons": "4.11.2",
+    "@material-ui/lab": "4.0.0-alpha.58",
+    "axios": "0.19.2",
+    "bootstrap": "4.5.0",
+    "react": "17.0.0-rc.3",
+    "react-bootstrap": "2.5.0",
+    "react-dom": "17.0.0-rc.3",
+    "react-loader-spinner": "4.0.0",
+    "react-router": "6.4.2",
+    "react-router-dom": "6.4.2",
+    "react-scripts": "3.0.1",
+    "react-use": "17.2.4"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

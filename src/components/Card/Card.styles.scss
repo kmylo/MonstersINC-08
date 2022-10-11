@@ -1,0 +1,38 @@
+/*
+Single Card Component
+*/
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #680C8A;
+  color: #eeeeee;
+  /*border: 1px solid #c8c8c8;*/
+  border-radius: 3px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.15s ease-out;
+
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 15px;
+  border-image-source: linear-gradient(to right top, #d16ba5,#00ffdd,#defb5f)
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+.card-container p {
+  font-size: 11px;
+}
+
+.card-container img {
+  max-width: 120px;
+  align-self: center;
+}
+
+.card-container h2 {
+  font-size: 22px;
+}

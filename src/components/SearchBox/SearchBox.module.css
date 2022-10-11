@@ -1,0 +1,68 @@
+/*
+Search BOX
+*/
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 350px;
+  line-height: 30px;
+  /* margin-bottom: 30px; */
+}
+.search-wrapper {
+  display: flex;
+}
+
+.search-container {
+  position: relative;
+  margin: 0 auto;
+}
+.btn-search {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.search-loader {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.search-btn {
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+.search-btn:focus {
+  outline: none;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type="search"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+input[type="search"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
