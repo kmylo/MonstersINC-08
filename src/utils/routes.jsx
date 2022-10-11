@@ -1,5 +1,3 @@
-import React from "react";
-
 import HomePage from "../pages/HomePage";
 import SearchPage from "../pages/SearchPage";
 import NotFound from "../pages/NotFound";

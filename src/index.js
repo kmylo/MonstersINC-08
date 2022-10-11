@@ -1,10 +1,12 @@
 // REACT < 17
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+import React from 'react';
+import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 
+import App from "./App";
+
 // CONTEXT
+import { AuthProvider } from "./context/AuthContext";
 import { MonstersProvider } from "./context/MonstersContext";
 import { SnackBarProvider } from "./context/SnackBarContext";
 import { SearchProvider } from "./context/SearchContext";
@@ -12,10 +14,11 @@ import { SearchProvider } from "./context/SearchContext";
 // STYLES
 import "bootstrap/dist/css/bootstrap.css";
 import "./styles.scss";
-import { AuthProvider } from "./context/AuthContext";
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(
+const container = document.getElementById("root");
+const root = createRoot(container);
+
+root.render(
   <React.StrictMode>
     <BrowserRouter>
       <AuthProvider>
@@ -28,8 +31,7 @@ ReactDOM.render(
         </SnackBarProvider>
       </AuthProvider>
     </BrowserRouter>
-  </React.StrictMode>,
-  rootElement
+  </React.StrictMode>
 );
 
 /**

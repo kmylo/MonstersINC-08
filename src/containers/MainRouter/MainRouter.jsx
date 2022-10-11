@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes, useRoutes } from "react-router";
 
 // COMPONENTS

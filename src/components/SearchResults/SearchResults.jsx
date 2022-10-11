@@ -1,4 +1,3 @@
-import React from "react";
 import { CardList } from "../CardList/CardList.component";
 
 const SearchResults = ({ condition, filteredMonsters }) => {

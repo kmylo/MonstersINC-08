@@ -1,4 +1,3 @@
-import React from "react";
 import { SearchBox } from "../../components/SearchBox/SearchBox.component";
 import SearchResults from "../../components/SearchResults/SearchResults";
 import { useMonster } from "../../context/MonstersContext";

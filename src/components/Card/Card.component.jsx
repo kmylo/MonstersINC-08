@@ -1,4 +1,3 @@
-import React from "react";
 import "./Card.styles.scss";
 import { imgURL01, QSTR01 } from "../../utils/endpoint";
 

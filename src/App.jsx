@@ -1,5 +1,3 @@
-import React from "react";
-
 // LAYOUTS
 import MainLayout from "./layouts/MainLayout";
 
