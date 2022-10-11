@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import NavScrollExample from "../components/NavScrollExample";
+// import NavScrollExample from "../components/NavScrollExample";
 
 // UTILS
 import { APP_TXT } from "../utils/constants";
+import { APP_NAV_LINKS } from "../utils/routes";
 const { appTitle } = APP_TXT;
 
 // const nav = {};
@@ -42,19 +43,19 @@ const MainNav = () => {
 
 const TutoNav = () => {
   return (
-    <ul>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/search-page">Search</Link>
-      </li>
-      {/* <li>
-        <Link>Other</Link>
-      </li> */}
-      <li>
+    <div className="wrap">
+      <ul>
+        {/* <li>
         <Link to="/monster/pepe">Monster Pepe</Link>
-      </li>
-    </ul>
+      </li> */}
+        {APP_NAV_LINKS.map((link) => {
+          return (
+            <li key={link?.path}>
+              <Link to={link?.path ?? "/"}>{link?.data?.title}</Link>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   );
 };

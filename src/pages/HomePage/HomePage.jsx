@@ -1,4 +1,4 @@
-import { SearchBox } from "../../components/SearchBox/SearchBox.component";
+import { SearchBox } from "../../components/SearchBox/SearchBox";
 import SearchResults from "../../components/SearchResults/SearchResults";
 import { useMonster } from "../../context/MonstersContext";
 import { useSearchContext } from "../../context/SearchContext";
@@ -6,6 +6,7 @@ import { useSearchContext } from "../../context/SearchContext";
 const HomePage = ({ children, ...restProps }) => {
   const { monsters, error, isLoading } = useMonster();
   const { isSearching, debouncedValue, handleSearch } = useSearchContext();
+  
   const filteredMonsters = monsters?.filter((monster) =>
     monster.name.toLowerCase().includes(debouncedValue.toLocaleLowerCase())
   );
